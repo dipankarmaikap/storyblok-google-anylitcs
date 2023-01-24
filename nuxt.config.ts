@@ -1,5 +1,6 @@
 export default {
   nitro: {
-    preset: 'vercel-edge',
+    preset: "vercel-edge",
   },
+  modules: ["@nuxtjs/tailwindcss"],
 };
